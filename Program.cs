@@ -14,7 +14,7 @@ namespace Practice
         }
         static void SayHello()
         {
-            Console.WriteLine("Hello");
+            Console.WriteLine("Hello 123");
         }
         static void Main(string[] args)
         {
