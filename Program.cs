@@ -10,7 +10,11 @@ namespace Practice
     {
         private static  void MyPracticeMethod()
         {
-            
+            float a = 10f;
+            double b = 1;
+            int sum = (int)a + (int)b;
+            Console.WriteLine(sum);
+
         }
         static void SayHello()
         {
@@ -19,9 +23,8 @@ namespace Practice
         static void Main(string[] args)
         {
             
-           SayHello();
-           string someMessage =  Console.ReadLine();
-           Console.WriteLine(someMessage); 
+          
+           MyPracticeMethod();  
            Console.ReadLine();  
 
         }
